@@ -1,0 +1,6 @@
+print("Problem2")
+numbers=list(map(int,input("Enter 5 numbers: ").split()))
+print(numbers[::-1])
+a=sum(numbers)
+print(a)
+print(a//len(numbers))
